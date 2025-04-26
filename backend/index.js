@@ -42,7 +42,7 @@ io.on('connection', (socket) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Backend running..!!");
+  res.send("Its Backend baby..!!");
 });
 
 // Start the server
